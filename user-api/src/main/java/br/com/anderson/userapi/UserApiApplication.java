@@ -14,7 +14,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import java.util.List;
 
 @SpringBootApplication
-@EnableEurekaClient
+@EnableDiscoveryClient
 public class UserApiApplication implements CommandLineRunner {
 
 	@Autowired
